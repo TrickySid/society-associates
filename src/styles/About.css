@@ -5,7 +5,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   background-color: #eef1ff;
+  gap: 40px;
   padding: 30px 0;
 }
 
