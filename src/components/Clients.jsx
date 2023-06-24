@@ -63,9 +63,15 @@ export default function Clients() {
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
-          <p className="client-name">Shubh Nirmaan CHS Ltd, Badlapur (West)</p>
+          <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
         </div>
         <div data-aos="fade-in" className="client">
+          <div className="client-img">
+            <img src={def} alt="client" />
+          </div>
+          <p className="client-name">Shubh Nirmaan CHS Ltd, Badlapur (West)</p>
+        </div>
+        <div data-aos="fade-left" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -75,7 +81,7 @@ export default function Clients() {
             Ambarnath (East)
           </p>
         </div>
-        <div data-aos="fade-left" className="client">
+        <div data-aos="fade-right" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -85,7 +91,7 @@ export default function Clients() {
             Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-right" className="client">
+        <div data-aos="fade-in" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -95,13 +101,13 @@ export default function Clients() {
             Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-in" className="client">
+        <div data-aos="fade-left" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
           <p className="client-name">Mauli Darshan CHS Ltd, Dombivli (East)</p>
         </div>
-        <div data-aos="fade-left" className="client">
+        <div data-aos="fade-right" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -111,7 +117,7 @@ export default function Clients() {
             Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-right" className="client">
+        <div data-aos="fade-in" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -119,7 +125,7 @@ export default function Clients() {
             Om Sai Sadan Bldg No. 03 CHS Ltd, Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-in" className="client">
+        <div data-aos="fade-left" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -129,13 +135,13 @@ export default function Clients() {
             Kalyan (East)
           </p>
         </div>
-        <div data-aos="fade-left" className="client">
+        <div data-aos="fade-right" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
           <p className="client-name">Om Sai Sankalp CHS Ltd, Dombivli (East)</p>
         </div>
-        <div data-aos="fade-right" className="client">
+        <div data-aos="fade-in" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -145,7 +151,7 @@ export default function Clients() {
             Kalyan (East)
           </p>
         </div>
-        <div data-aos="fade-in" className="client">
+        <div data-aos="fade-left" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -153,7 +159,7 @@ export default function Clients() {
             Om Annapurna Darshan CHS Ltd, Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-left" className="client">
+        <div data-aos="fade-right" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -161,7 +167,7 @@ export default function Clients() {
             Siddhivinayak Apartment CHS Ltd, Kalyan (East)
           </p>
         </div>
-        <div data-aos="fade-right" className="client">
+        <div data-aos="fade-in" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -171,7 +177,7 @@ export default function Clients() {
             Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-in" className="client">
+        <div data-aos="fade-left" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
@@ -179,7 +185,7 @@ export default function Clients() {
             Rajubhai Apartment CHS Ltd, Dombivli (East)
           </p>
         </div>
-        <div data-aos="fade-left" className="client">
+        <div data-aos="fade-right" className="client">
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
