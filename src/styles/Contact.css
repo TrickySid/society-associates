@@ -44,6 +44,12 @@
   line-height: 1.5;
 }
 
+.sa-loc {
+  width: 95%;
+  height: 600px;
+  padding: 0 30px;
+}
+
 #contact-form {
   display: flex;
   flex-direction: column;

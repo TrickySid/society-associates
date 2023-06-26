@@ -41,6 +41,18 @@ export default function Contact() {
           </p>
         </div>
       </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.3836101463276!2d73.13184367411985!3d19.26567714599268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7971c3c5b3e53%3A0xe961986739196ace!2sRutu%20riverside%20estate%20Building%202A!5e0!3m2!1sen!2sin!4v1687759727287!5m2!1sen!2sin"
+        className="sa-loc"
+        data-aos="fade-in"
+        title="sa-location"
+        width="600"
+        height="450"
+        style={{ border: "0" }}
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <form
         action="https://formspree.io/f/mwkjgrwo"
         method="POST"
