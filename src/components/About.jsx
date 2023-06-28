@@ -20,15 +20,15 @@ export default function About() {
       <div data-aos="fade-left" className="about-us-txt">
         <div className="about-heading">About Us</div>
         <p className="about-txt">
-          We, Society Associates, located in Kalyan since 2015, provide
-          framework and setup as per the bye laws which helps you to tackle all
-          the issues while handling the housing society management. We also
-          provide Management Consultancy for legal issues, documentation, fund
-          management & internal dispute. We are dedicated Co-operative Housing
-          Society Consultancy. We are expertise in the same field in and around
-          Kalyan, we provide Monthly / Annual Basis Consultancy to housing
-          societies against reasonable and standard charges for concrete
-          solution, opinion and consultancy.
+          We, Society Associates, have been operating in Kalyan since 2015, and
+          we offer a setup and framework in accordance with the bylaws that
+          enables you to handle all concerns that arise when managing a Housing
+          Society. For legal matters, documentation, fund management, and
+          internal disputes, we also offer Management Consulting Services. We
+          are qualified to offer Consulting Services to Co-operative Housing
+          Societies. We provide Monthly / Annual Basis Consultancy to Housing
+          Societies against reasonable and standard charges for concrete
+          solutions, opinions, and consulting.
         </p>
       </div>
     </div>
