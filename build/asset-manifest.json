@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/society-associates/static/css/main.4211876e.css",
-    "main.js": "/society-associates/static/js/main.6be8ff5c.js",
-    "static/media/8.jpg": "/society-associates/static/media/8.8c17725a7b04bd05eb4d.jpg",
-    "static/media/header.jpg": "/society-associates/static/media/header.72eb5bf39a2e71e93dd7.jpg",
-    "static/media/7.jpg": "/society-associates/static/media/7.39f4b80a57d382baea79.jpg",
-    "static/media/4.jpg": "/society-associates/static/media/4.74262387ebc659273e13.jpg",
-    "static/media/about.jpg": "/society-associates/static/media/about.2daf069b407ecbd67fa3.jpg",
-    "static/media/2.jpg": "/society-associates/static/media/2.371afc7d5119188edf18.jpg",
-    "static/media/6.jpg": "/society-associates/static/media/6.3fc5d3ac02ec0c559edb.jpg",
-    "static/media/3.jpg": "/society-associates/static/media/3.35342034c82dab9b254c.jpg",
-    "static/media/1.jpg": "/society-associates/static/media/1.b0c824a72665c8b5bfd3.jpg",
-    "static/media/5.jpg": "/society-associates/static/media/5.afd2ce384c513214412c.jpg",
-    "index.html": "/society-associates/index.html",
-    "main.4211876e.css.map": "/society-associates/static/css/main.4211876e.css.map",
-    "main.6be8ff5c.js.map": "/society-associates/static/js/main.6be8ff5c.js.map"
+    "main.css": "/societyassociates.in/static/css/main.db77792c.css",
+    "main.js": "/societyassociates.in/static/js/main.29568d63.js",
+    "static/media/8.jpg": "/societyassociates.in/static/media/8.8c17725a7b04bd05eb4d.jpg",
+    "static/media/header.jpg": "/societyassociates.in/static/media/header.72eb5bf39a2e71e93dd7.jpg",
+    "static/media/7.jpg": "/societyassociates.in/static/media/7.39f4b80a57d382baea79.jpg",
+    "static/media/4.jpg": "/societyassociates.in/static/media/4.74262387ebc659273e13.jpg",
+    "static/media/about.jpg": "/societyassociates.in/static/media/about.2daf069b407ecbd67fa3.jpg",
+    "static/media/2.jpg": "/societyassociates.in/static/media/2.371afc7d5119188edf18.jpg",
+    "static/media/6.jpg": "/societyassociates.in/static/media/6.3fc5d3ac02ec0c559edb.jpg",
+    "static/media/3.jpg": "/societyassociates.in/static/media/3.35342034c82dab9b254c.jpg",
+    "static/media/1.jpg": "/societyassociates.in/static/media/1.b0c824a72665c8b5bfd3.jpg",
+    "static/media/5.jpg": "/societyassociates.in/static/media/5.afd2ce384c513214412c.jpg",
+    "index.html": "/societyassociates.in/index.html",
+    "main.db77792c.css.map": "/societyassociates.in/static/css/main.db77792c.css.map",
+    "main.29568d63.js.map": "/societyassociates.in/static/js/main.29568d63.js.map"
   },
   "entrypoints": [
-    "static/css/main.4211876e.css",
-    "static/js/main.6be8ff5c.js"
+    "static/css/main.db77792c.css",
+    "static/js/main.29568d63.js"
   ]
 }
