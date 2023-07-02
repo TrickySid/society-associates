@@ -1,5 +1,6 @@
 {
   "name": "society-associates",
+  "homepage": "http://www.societyassociates.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
