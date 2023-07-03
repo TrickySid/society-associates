@@ -85,111 +85,27 @@ export default function Clients() {
           <div className="client-img">
             <img src={def} alt="client" />
           </div>
-          <p className="client-name">
-            Navoday CHS Ltd,
-            <br />
-            Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Vighnaharta CHS Ltd,
-            <br />
-            Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">Mauli Darshan CHS Ltd, Dombivli (East)</p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Maulidham CHS Ltd,
-            <br />
-            Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Om Sai Sadan Bldg No. 03 CHS Ltd, Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Om Sai Pooja CHS Ltd,
-            <br />
-            Kalyan (East)
-          </p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">Om Sai Sankalp CHS Ltd, Dombivli (East)</p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Mangalmurti CHS Ltd,
-            <br />
-            Kalyan (East)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Om Annapurna Darshan CHS Ltd, Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Siddhivinayak Apartment CHS Ltd, Kalyan (East)
-          </p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Asha Paradise CHS Ltd,
-            <br />
-            Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
-          <p className="client-name">
-            Rajubhai Apartment CHS Ltd, Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
-          </div>
           <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
+        </div>
+        <div data-aos="fade-in" className="client">
+          <div className="client-img">
+            <img src={def} alt="client" />
+          </div>
+          <p className="client-name">
+            Riverview Classic Bldg No 6, Kalyan (West)
+          </p>
+        </div>
+        <div data-aos="fade-left" className="client">
+          <div className="client-img">
+            <img src={def} alt="client" />
+          </div>
+          <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
+        </div>
+        <div data-aos="fade-right" className="client">
+          <div className="client-img">
+            <img src={def} alt="client" />
+          </div>
+          <p className="client-name">Shivam Complex, Badlapur</p>
         </div>
       </div>
     </div>

@@ -34,19 +34,22 @@ export default function Contact() {
             <i class="fa-solid fa-phone" />
           </div>
           <p className="title">Give us a Call</p>
-          <p className="info">
-            <i
-              className="fa-brands fa-whatsapp"
-              style={{ marginRight: "5px" }}
-            />
-            +91 98923 72264
-            <br />
-            <i
-              className="fa-brands fa-whatsapp"
-              style={{ marginRight: "5px" }}
-            />
-            +91 99678 74633
-          </p>
+          <div>
+            <p className="info">
+              <i
+                className="fa-brands fa-whatsapp"
+                style={{ fontSize: "20px" }}
+              />
+              +91 98923 72264
+            </p>
+            <p className="info" style={{ marginTop: "10px" }}>
+              <i
+                className="fa-brands fa-whatsapp"
+                style={{ fontSize: "20px" }}
+              />
+              +91 99678 74633
+            </p>
+          </div>
         </div>
       </div>
       <iframe
