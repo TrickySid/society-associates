@@ -51,8 +51,10 @@ export default function Services() {
             <img alt="" src={socFormImg} />
           </div>
           <div class="content">
-            <h2>Society Registration & Handover</h2>
-            <p style={{ fontSize: "14px" }}>
+            <h2 style={{ marginTop: "20px" }}>
+              Society Registration & Handover
+            </h2>
+            <p style={{ fontSize: "14px", marginTop: "10px" }}>
               We are qualified and expert consultants, and we provide reliable
               Consulting Services for Registration and Handover process of
               housing societies.
@@ -64,8 +66,10 @@ export default function Services() {
             <img alt="" src={conveyanceImg} />
           </div>
           <div class="content">
-            <h2>Conveyance / Deemed Conveyance</h2>
-            <p style={{ fontSize: "14px" }}>
+            <h2 style={{ marginTop: "20px" }}>
+              Conveyance / Deemed Conveyance
+            </h2>
+            <p style={{ fontSize: "14px", marginTop: "10px" }}>
               We provide proper legal advice and assistance to society members
               to execute Conveyance deeds and Deemed Conveyance hassle-free and
               cost-effectively.

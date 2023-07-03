@@ -35,8 +35,16 @@ export default function Contact() {
           </div>
           <p className="title">Give us a Call</p>
           <p className="info">
+            <i
+              className="fa-brands fa-whatsapp"
+              style={{ marginRight: "5px" }}
+            />
             +91 98923 72264
             <br />
+            <i
+              className="fa-brands fa-whatsapp"
+              style={{ marginRight: "5px" }}
+            />
             +91 99678 74633
           </p>
         </div>
