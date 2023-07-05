@@ -9,105 +9,221 @@ export default function Clients() {
     Aos.init({ duration: 1000 });
   }, []);
 
-  return (
-    <div id="clients">
-      <div className="clients-heading">Our Clients</div>
-      <div className="client-details">
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+  if (window.innerWidth <= 980) {
+    return (
+      <div id="clients">
+        <div className="clients-heading">Our Clients</div>
+        <div className="client-details">
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shree Sai Gajanan CHS Ltd, Dombivli (East)
+            </p>
           </div>
-          <p className="client-name">
-            Shree Sai Gajanan CHS Ltd, Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shrinika Srishti CHS Ltd, Dombivli (East)
+            </p>
           </div>
-          <p className="client-name">
-            Shrinika Srishti CHS Ltd, Dombivli (East)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Deepak Paradise CHS Ltd, Kalyan (West)
+            </p>
           </div>
-          <p className="client-name">Deepak Paradise CHS Ltd, Kalyan (West)</p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              New Ganga Yamuna CHS Ltd, Kalyan (West)
+            </p>
           </div>
-          <p className="client-name">New Ganga Yamuna CHS Ltd, Kalyan (West)</p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Sai Anant Darshan CHS Ltd, Dombivli (West)
+            </p>
           </div>
-          <p className="client-name">
-            Sai Anant Darshan CHS Ltd, Dombivli (West)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Yogidham Sydney,
+              <br />
+              Kalyan (West)
+            </p>
           </div>
-          <p className="client-name">
-            Yogidham Sydney,
-            <br />
-            Kalyan (West)
-          </p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
           </div>
-          <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shubh Nirmaan CHS Ltd, Badlapur (West)
+            </p>
           </div>
-          <p className="client-name">Shubh Nirmaan CHS Ltd, Badlapur (West)</p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Rutika CHS Ltd,
+              <br />
+              Ambarnath (East)
+            </p>
           </div>
-          <p className="client-name">
-            Rutika CHS Ltd,
-            <br />
-            Ambarnath (East)
-          </p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
           </div>
-          <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
-        </div>
-        <div data-aos="fade-in" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Riverview Classic Bldg No 6, Kalyan (West)
+            </p>
           </div>
-          <p className="client-name">
-            Riverview Classic Bldg No 6, Kalyan (West)
-          </p>
-        </div>
-        <div data-aos="fade-left" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
           </div>
-          <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
-        </div>
-        <div data-aos="fade-right" className="client">
-          <div className="client-img">
-            <img src={def} alt="client" />
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Shivam Complex, Badlapur</p>
           </div>
-          <p className="client-name">Shivam Complex, Badlapur</p>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else if (window.innerWidth > 980) {
+    return (
+      <div id="clients">
+        <div className="clients-heading">Our Clients</div>
+        <div className="client-details">
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shree Sai Gajanan CHS Ltd, Dombivli (East)
+            </p>
+          </div>
+          <div data-aos="fade-in" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shrinika Srishti CHS Ltd, Dombivli (East)
+            </p>
+          </div>
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Deepak Paradise CHS Ltd, Kalyan (West)
+            </p>
+          </div>
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              New Ganga Yamuna CHS Ltd, Kalyan (West)
+            </p>
+          </div>
+          <div data-aos="fade-in" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Sai Anant Darshan CHS Ltd, Dombivli (West)
+            </p>
+          </div>
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Yogidham Sydney,
+              <br />
+              Kalyan (West)
+            </p>
+          </div>
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
+          </div>
+          <div data-aos="fade-in" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Shubh Nirmaan CHS Ltd, Badlapur (West)
+            </p>
+          </div>
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Rutika CHS Ltd,
+              <br />
+              Ambarnath (East)
+            </p>
+          </div>
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
+          </div>
+          <div data-aos="fade-in" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Riverview Classic Bldg No 6, Kalyan (West)
+            </p>
+          </div>
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
+          </div>
+          <div data-aos="fade-right" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">Shivam Complex, Badlapur</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
