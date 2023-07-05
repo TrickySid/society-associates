@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div id="header">
       <p data-aos="fade-right" className="header-txt">
-        <div>
+        <span>
           From Complexity to Clarity:
           <br />
           <span className="header-txt-bold">
@@ -20,7 +20,7 @@ export default function Header() {
             <br />
             Society Management Process
           </span>
-        </div>
+        </span>
         <AnchorLink href="#contact-form">
           <button className="enquire-now">Enquire Now</button>
         </AnchorLink>

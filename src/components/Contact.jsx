@@ -24,14 +24,14 @@ export default function Contact() {
         </div>
         <div data-aos="fade-in" className="detail">
           <div className="icon">
-            <i class="fa-solid fa-envelope" />
+            <i className="fa-solid fa-envelope" />
           </div>
           <p className="title">For Enquiries</p>
           <p className="info">societyassociates22@gmail.com</p>
         </div>
         <div data-aos="fade-left" className="detail">
           <div className="icon">
-            <i class="fa-solid fa-phone" />
+            <i className="fa-solid fa-phone" />
           </div>
           <p className="title">Give us a Call</p>
           <div>
@@ -60,9 +60,9 @@ export default function Contact() {
         width="600"
         height="450"
         style={{ border: "0" }}
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <form
         action="https://formspree.io/f/mwkjgrwo"

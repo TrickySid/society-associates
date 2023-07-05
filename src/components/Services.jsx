@@ -19,12 +19,12 @@ export default function Services() {
   return (
     <div id="services">
       <div className="services-heading">Services</div>
-      <div class="service-cards">
-        <div data-aos="fade-right" class="card">
-          <div class="img-box">
+      <div className="service-cards">
+        <div data-aos="fade-right" className="card">
+          <div className="img-box">
             <img alt="" src={auditImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2>Auditing</h2>
             <p>
               We perform Statutory / Internal Audits for housing societies, as
@@ -33,11 +33,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-right" class="card">
-          <div class="img-box">
+        <div data-aos="fade-right" className="card">
+          <div className="img-box">
             <img alt="" src={housingImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2>Society Accounting</h2>
             <p>
               We are qualified and expert accountants, and we provide reliable
@@ -46,11 +46,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" class="card">
-          <div class="img-box">
+        <div data-aos="fade-left" className="card">
+          <div className="img-box">
             <img alt="" src={socFormImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2 style={{ marginTop: "20px" }}>
               Society Registration & Handover
             </h2>
@@ -61,11 +61,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" class="card">
-          <div class="img-box">
+        <div data-aos="fade-left" className="card">
+          <div className="img-box">
             <img alt="" src={conveyanceImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2 style={{ marginTop: "20px" }}>
               Conveyance / Deemed Conveyance
             </h2>
@@ -76,11 +76,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-right" class="card">
-          <div class="img-box">
+        <div data-aos="fade-right" className="card">
+          <div className="img-box">
             <img alt="" src={maintenanceImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2 style={{ fontSize: "22px" }}>Maintenance Recovery</h2>
             <p>
               We provide basic consultancy for Recovery of due Maintenance from
@@ -89,11 +89,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-right" class="card">
-          <div class="img-box">
+        <div data-aos="fade-right" className="card">
+          <div className="img-box">
             <img alt="" src={membershipImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2>Membership Transfer</h2>
             <p>
               We provide reliable consulting services for Membership Transfer
@@ -102,11 +102,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" class="card">
-          <div class="img-box">
+        <div data-aos="fade-left" className="card">
+          <div className="img-box">
             <img alt="" src={rraImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2>Rent Agreement</h2>
             <p>
               We provide services for flat Rent Agreement with police
@@ -114,11 +114,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div data-aos="fade-left" class="card">
-          <div class="img-box">
+        <div data-aos="fade-left" className="card">
+          <div className="img-box">
             <img alt="" src={electionImg} />
           </div>
-          <div class="content">
+          <div className="content">
             <h2>Society Election</h2>
             <p>
               We conduct Election of Managing Committee as well as various
