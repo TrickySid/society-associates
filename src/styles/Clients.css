@@ -30,6 +30,13 @@
   opacity: 0.8;
 }
 
+.clientt {
+  display: flex;
+  align-items: center;
+  width: 370px;
+  opacity: 0.8;
+}
+
 .client-img {
   background: #333;
   overflow: hidden;

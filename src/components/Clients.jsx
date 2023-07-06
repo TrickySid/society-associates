@@ -14,7 +14,7 @@ export default function Clients() {
       <div id="clients">
         <div className="clients-heading">Our Clients</div>
         <div className="client-details">
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -22,7 +22,7 @@ export default function Clients() {
               Shree Sai Gajanan CHS Ltd, Dombivli (East)
             </p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -30,7 +30,7 @@ export default function Clients() {
               Shrinika Srishti CHS Ltd, Dombivli (East)
             </p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -38,7 +38,7 @@ export default function Clients() {
               Deepak Paradise CHS Ltd, Kalyan (West)
             </p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -46,7 +46,7 @@ export default function Clients() {
               New Ganga Yamuna CHS Ltd, Kalyan (West)
             </p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -54,7 +54,7 @@ export default function Clients() {
               Sai Anant Darshan CHS Ltd, Dombivli (West)
             </p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -64,13 +64,13 @@ export default function Clients() {
               Kalyan (West)
             </p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
             <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -78,7 +78,7 @@ export default function Clients() {
               Shubh Nirmaan CHS Ltd, Badlapur (West)
             </p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -88,13 +88,13 @@ export default function Clients() {
               Ambarnath (East)
             </p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
             <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
@@ -102,13 +102,13 @@ export default function Clients() {
               Riverview Classic Bldg No 6, Kalyan (West)
             </p>
           </div>
-          <div data-aos="fade-left" className="client">
+          <div data-aos="fade-left" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
             <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
           </div>
-          <div data-aos="fade-right" className="client">
+          <div data-aos="fade-right" className="clientt">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
