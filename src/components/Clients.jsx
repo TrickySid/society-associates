@@ -184,7 +184,7 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
+            <p className="client-name">Shivneri CHS Ltd, Vile Parle</p>
           </div>
           <div data-aos="fade-in" className="client">
             <div className="client-img">
