@@ -68,7 +68,7 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Shivneri CHS Ltd, Vileparle</p>
+            <p className="client-name">Shivneri CHS Ltd, Vile Parle</p>
           </div>
           <div data-aos="fade-left" className="clientt">
             <div className="client-img">
@@ -92,7 +92,11 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
+            <p className="client-name">
+              Devlok CHS Ltd,
+              <br />
+              Dombivli (West)
+            </p>
           </div>
           <div data-aos="fade-right" className="clientt">
             <div className="client-img">
@@ -106,7 +110,11 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Chafe Vikas Patpedhi, Vile Parle</p>
+            <p className="client-name">
+              Chafe Vikas Patpedhi,
+              <br />
+              Vile Parle
+            </p>
           </div>
           <div data-aos="fade-right" className="clientt">
             <div className="client-img">
