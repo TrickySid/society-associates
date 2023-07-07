@@ -9,7 +9,7 @@ export default function Clients() {
     Aos.init({ duration: 1000 });
   }, []);
 
-  if (window.innerWidth <= 1350) {
+  if (window.innerWidth <= 1280) {
     return (
       <div id="clients">
         <div className="clients-heading">Our Clients</div>
@@ -125,7 +125,7 @@ export default function Clients() {
         </div>
       </div>
     );
-  } else if (window.innerWidth > 1350) {
+  } else if (window.innerWidth > 1280) {
     return (
       <div id="clients">
         <div className="clients-heading">Our Clients</div>
