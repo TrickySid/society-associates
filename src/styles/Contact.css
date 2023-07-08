@@ -72,6 +72,10 @@ input {
   width: 500px;
 }
 
+.mobile-input {
+  width: 80%;
+}
+
 input::placeholder {
   font-family: Montserrat, sans-serif;
   font-size: 15px;
