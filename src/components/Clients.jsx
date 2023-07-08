@@ -129,7 +129,9 @@ export default function Clients() {
           </div>
           <div data-aos="fade-in" className="client-msg">
             " Give us a call or Enquire below to avail the Best services for
-            your Housing Society and be one of our Happy Clients! "
+            your Housing Society
+            <br />
+            and be one of our Happy Clients! "
           </div>
         </div>
       </div>
