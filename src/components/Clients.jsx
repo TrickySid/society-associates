@@ -123,6 +123,7 @@ export default function Clients() {
             <p className="client-name">Shivam Complex, Badlapur</p>
           </div>
         </div>
+        <div className="clients-footer">...& many more</div>
       </div>
     );
   } else if (window.innerWidth > 980) {
@@ -229,6 +230,15 @@ export default function Clients() {
               <img src={def} alt="client" />
             </div>
             <p className="client-name">Shivam Complex, Badlapur</p>
+          </div>
+        </div>
+        <div className="clients-footer">
+          <div data-aos="fade-in" className="end-of-clients">
+            ....& many more
+          </div>
+          <div data-aos="fade-in" className="client-msg">
+            " Give us a call or Enquire below to avail the Best services for
+            your Housing Society and be one of our Happy Clients! "
           </div>
         </div>
       </div>

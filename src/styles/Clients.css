@@ -3,7 +3,7 @@
 #clients {
   font-family: Montserrat, sans-serif;
   color: #000;
-  padding: 30px 0 10px;
+  padding: 30px 0 0;
   margin-left: 0;
 }
 
@@ -20,7 +20,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   gap: 20px 20px;
-  padding: 30px 50px;
+  padding: 30px 50px 0;
 }
 
 .client {
@@ -59,4 +59,23 @@ img {
   font-size: 16px;
   font-weight: 500;
   width: 380px;
+}
+
+.clients-footer {
+  text-align: center;
+}
+
+.end-of-clients {
+  font-size: 19px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.client-msg {
+  background-color: #eef1ff;
+  padding: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
 }
