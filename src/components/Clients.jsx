@@ -241,6 +241,14 @@ export default function Clients() {
             </div>
             <p className="client-name">Shivam Complex, Badlapur</p>
           </div>
+          <div data-aos="fade-left" className="client">
+            <div className="client-img">
+              <img src={def} alt="client" />
+            </div>
+            <p className="client-name">
+              Om Sai Sadan E & F Wing CHS Ltd, Dombivli
+            </p>
+          </div>
         </div>
         <div className="clients-footer">
           <div data-aos="fade-in" className="end-of-clients">
