@@ -219,15 +219,13 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Devlok CHS Ltd, Dombivli (West)</p>
+            <p className="client-name">Devlok CHS Ltd, Dombivli</p>
           </div>
           <div data-aos="fade-in" className="client">
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">
-              Riverview Classic Bldg No 6, Kalyan (West)
-            </p>
+            <p className="client-name">Riverview Classic Bldg No 6, Kalyan</p>
           </div>
           <div data-aos="fade-left" className="client">
             <div className="client-img">
@@ -261,7 +259,7 @@ export default function Clients() {
             <div className="client-img">
               <img src={def} alt="client" />
             </div>
-            <p className="client-name">Shivam A1, A2 CHS Ltd, Kon</p>
+            <p className="client-name">Shivam A1 & A2 CHS Ltd, Kon</p>
           </div>
         </div>
         <div className="clients-footer">
