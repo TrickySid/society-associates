@@ -252,7 +252,7 @@ export default function Clients() {
               <img src={def} alt="client" />
             </div>
             <p className="client-name">
-              Rutu Riverside Estate Building No. 2 CHS Ltd, Kalyan
+              Rutu Riverside Estate Bldg No. 2 CHS Ltd, Kalyan
             </p>
           </div>
           <div data-aos="fade-right" className="client">
