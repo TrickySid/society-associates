@@ -29,7 +29,10 @@ export default function Contact() {
             </div>
             <p className="title">For Enquiries</p>
             <p className="info">
-              <a href="mailto:societyassociates22@gmail.com">
+              <a
+                className="email-us"
+                href="mailto:societyassociates22@gmail.com"
+              >
                 societyassociates22@gmail.com
               </a>
             </p>
@@ -45,14 +48,18 @@ export default function Contact() {
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                <a href="https://wa.me/919892372264">+91 98923 72264</a>
+                <a className="whatsapp-no" href="https://wa.me/919892372264">
+                  +91 98923 72264
+                </a>
               </p>
               <p className="info" style={{ marginTop: "10px" }}>
                 <i
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                <a href="https://wa.me/919967874633">+91 99678 74633</a>
+                <a className="whatsapp-no" href="https://wa.me/919967874633">
+                  +91 99678 74633
+                </a>
               </p>
             </div>
           </div>
@@ -144,7 +151,14 @@ export default function Contact() {
               <i className="fa-solid fa-envelope" />
             </div>
             <p className="title">For Enquiries</p>
-            <p className="info">societyassociates22@gmail.com</p>
+            <p className="info">
+              <a
+                className="email-us"
+                href="mailto:societyassociates22@gmail.com"
+              >
+                societyassociates22@gmail.com
+              </a>
+            </p>
           </div>
           <div data-aos="fade-left" className="detail">
             <div className="icon">
@@ -157,14 +171,18 @@ export default function Contact() {
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                +91 98923 72264
+                <a className="whatsapp-no" href="https://wa.me/919892372264">
+                  +91 98923 72264
+                </a>
               </p>
               <p className="info" style={{ marginTop: "10px" }}>
                 <i
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                +91 99678 74633
+                <a className="whatsapp-no" href="https://wa.me/919967874633">
+                  +91 99678 74633
+                </a>
               </p>
             </div>
           </div>

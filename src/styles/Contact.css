@@ -48,6 +48,15 @@
   line-height: 1.5;
 }
 
+.email-us {
+  color: #fff;
+  cursor: pointer;
+}
+
+.whatsapp-no {
+  color: #fff;
+}
+
 .sa-loc {
   width: 95%;
   height: 600px;
