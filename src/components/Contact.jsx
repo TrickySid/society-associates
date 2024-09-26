@@ -154,6 +154,7 @@ export default function Contact() {
             <p className="info">
               <a
                 className="email-us"
+                href="mailto:societyassociates22@gmail.com"
               >
                 societyassociates22@gmail.com
               </a>
@@ -170,7 +171,7 @@ export default function Contact() {
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                <a className="whatsapp-no">
+                <a className="whatsapp-no" href="https://wa.me/919892372264">
                   +91 98923 72264
                 </a>
               </p>
@@ -179,7 +180,7 @@ export default function Contact() {
                   className="fa-brands fa-whatsapp"
                   style={{ fontSize: "20px" }}
                 />
-                <a className="whatsapp-no">
+                <a className="whatsapp-no" href="https://wa.me/919967874633">
                   +91 99678 74633
                 </a>
               </p>
