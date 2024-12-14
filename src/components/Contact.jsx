@@ -20,7 +20,7 @@ export default function Contact() {
             <p className="title">Address</p>
             <p className="info" style={{ width: "290px" }}>
               303, Bldg 2/A, Rutu Riverside Estate, Gandhare, Near KM Agarwal
-              College, Aadharwadi Road, Kalyan (W) - 421301
+              College, Aadharwadi Road, Kalyan (W) -421301
             </p>
           </div>
           <div data-aos="fade-in" className="detail">
