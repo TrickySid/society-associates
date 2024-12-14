@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Services from "./components/Services";
 import About from "./components/About";
 import Clients from "./components/Clients";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import "./App.css";
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
       <Services />
       <About />
       <Clients />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }
