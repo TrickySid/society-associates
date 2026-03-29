@@ -30,7 +30,7 @@ export default function Navbar() {
             </AnchorLink>
           </div>
           <div>
-            <AnchorLink href="#contact-us">
+            <AnchorLink href="#contact">
               <button className="nav-items">CONTACT US</button>
             </AnchorLink>
           </div>

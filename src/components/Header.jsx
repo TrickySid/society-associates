@@ -10,21 +10,28 @@ export default function Header() {
   }, []);
 
   return (
-    <div id="header">
-      <p data-aos="fade-right" className="header-txt">
-        <span>
-          From Complexity to Clarity:
-          <br />
-          <span className="header-txt-bold">
-            Simplify Your
-            <br />
-            Society Management Process
-          </span>
-        </span>
-        <AnchorLink href="#contact-form">
-          <button className="enquire-now">Enquire Now</button>
-        </AnchorLink>
-      </p>
-    </div>
+    <section id="header" className="hero">
+      <div className="hero-overlay"></div>
+      <div className="container hero-content">
+        <div data-aos="fade-up" className="hero-text-container">
+          <h1 className="hero-title">
+            Mastering Housing Society <br />
+            <span className="text-accent">Management with Trust</span>
+          </h1>
+          <p className="hero-subtitle">
+            Comprehensive solutions for Auditing, Accounting, and Legal Consultancy 
+            tailored for the modern needs of Housing Societies in Maharashtra.
+          </p>
+          <div className="hero-btns">
+            <AnchorLink href="#contact">
+              <button className="btn btn-primary">Enquire Now</button>
+            </AnchorLink>
+            <AnchorLink href="#services">
+              <button className="btn btn-secondary">Our Services</button>
+            </AnchorLink>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,33 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+.bg-alt {
+  background-color: var(--bg-alt);
+}
 
-#about-us {
-  font-family: Montserrat, sans-serif;
+.about-wrapper {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
-  background-color: #eef1ff;
-  gap: 20px;
-  padding: 30px 0;
+  gap: 60px;
 }
 
-.about-us-img {
-  border-radius: 10px;
-  width: 600px;
+.about-img-box {
+  flex: 1;
+  position: relative;
 }
 
-.about-heading {
-  color: #000;
-  font-size: 30px;
-  font-weight: 900;
+.about-img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: block;
 }
 
-.about-txt {
-  text-align: justify;
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 20px;
-  width: 630px;
-  line-height: 2;
+.about-accent-box {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  background-color: var(--primary);
+  color: var(--text-white);
+  padding: 30px;
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--shadow-lg);
+  border-bottom: 5px solid var(--accent);
+}
+
+.years-exp {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.years-txt {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+}
+
+.about-text-content {
+  flex: 1.2;
+}
+
+.section-header-left {
+  margin-bottom: 30px;
+}
+
+.section-underline-left {
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent);
+  margin-top: 15px;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  color: var(--text-body);
+  margin-bottom: 20px;
+}
+
+.about-features {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-main);
+}
+
+.feature-icon {
+  color: var(--accent);
+  font-size: 1.25rem;
+}
+
+@media (max-width: 992px) {
+  .about-wrapper {
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+  .about-accent-box {
+    bottom: -20px;
+    right: 20px;
+  }
 }
