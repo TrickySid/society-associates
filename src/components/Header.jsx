@@ -20,7 +20,7 @@ export default function Header() {
           </h1>
           <p className="hero-subtitle">
             Comprehensive solutions for Auditing, Accounting, and Legal Consultancy 
-            tailored for the modern needs of Housing Societies in Maharashtra.
+            tailored for the modern needs of Housing Societies in Thane District & Mumbai.
           </p>
           <div className="hero-btns">
             <AnchorLink href="#contact">

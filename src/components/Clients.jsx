@@ -34,7 +34,7 @@ export default function Clients() {
           <h2 className="section-title">Our Valued Clients</h2>
           <div className="section-underline"></div>
           <p className="section-subtitle">
-            Trusted by numerous Housing Societies and associations across Mumbai.
+            Trusted by numerous Housing Societies and associations across Thane District and Mumbai.
           </p>
         </div>
         <div className="client-grid">

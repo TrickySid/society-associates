@@ -26,7 +26,7 @@ export default function About() {
               <div className="section-underline-left"></div>
             </div>
             <p className="about-description">
-              Since 2015, <strong>Society Associates</strong> has been a trusted partner for Housing Societies in Kalyan and across Mumbai. 
+              Since 2015, <strong>Society Associates</strong> has been a trusted partner for Housing Societies across Thane District and Mumbai. 
               We offer a robust framework and setup in accordance with cooperative bylaws, enabling committees to manage their societies with professional precision and complete transparency.
             </p>
             <p className="about-description">
