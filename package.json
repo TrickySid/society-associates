@@ -1,33 +1,26 @@
 {
   "name": "society-associates",
-  "homepage": "https://www.societyassociates.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "gh-pages": "^5.0.0",
+    "vite": "^7.1.9"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node -e \"console.log('No test runner is configured for this project.')\""
   },
   "browserslist": {
     "production": [
