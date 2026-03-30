@@ -114,6 +114,52 @@
   margin-top: 10px;
 }
 
+.submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.contact-form-note {
+  margin-top: 16px;
+  font-size: 0.9375rem;
+  color: var(--text-body);
+}
+
+.contact-form-note a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.contact-form-status {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9375rem;
+}
+
+.contact-form-status.is-success {
+  background-color: rgba(28, 122, 88, 0.12);
+  color: #166144;
+}
+
+.contact-form-status.is-error {
+  background-color: rgba(184, 54, 54, 0.12);
+  color: #8f2121;
+}
+
+.contact-form-status.is-submitting {
+  background-color: rgba(212, 175, 55, 0.12);
+  color: #7d6509;
+}
+
+.contact-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .footer-bottom {
   margin-top: 80px;
   padding-top: 30px;

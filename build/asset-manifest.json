@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c3426ba.css",
-    "main.js": "/static/js/main.a225e093.js",
+    "main.css": "/static/css/main.64db8220.css",
+    "main.js": "/static/js/main.3cf87c38.js",
     "static/media/hero-modern.png": "/static/media/hero-modern.2c5c51fc64be3bf749c7.png",
     "static/media/about-modern.png": "/static/media/about-modern.bf451c1dc15f55f2e9fa.png",
     "static/media/8.jpg": "/static/media/8.8c17725a7b04bd05eb4d.jpg",
@@ -13,11 +13,11 @@
     "static/media/1.jpg": "/static/media/1.b0c824a72665c8b5bfd3.jpg",
     "static/media/5.jpg": "/static/media/5.afd2ce384c513214412c.jpg",
     "index.html": "/index.html",
-    "main.7c3426ba.css.map": "/static/css/main.7c3426ba.css.map",
-    "main.a225e093.js.map": "/static/js/main.a225e093.js.map"
+    "main.64db8220.css.map": "/static/css/main.64db8220.css.map",
+    "main.3cf87c38.js.map": "/static/js/main.3cf87c38.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3426ba.css",
-    "static/js/main.a225e093.js"
+    "static/css/main.64db8220.css",
+    "static/js/main.3cf87c38.js"
   ]
 }

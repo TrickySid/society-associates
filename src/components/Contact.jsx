@@ -1,12 +1,85 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "../styles/Contact.css";
 
+const initialFormData = {
+  name: "",
+  email: "",
+  phone: "",
+  message: "",
+  company: "",
+};
+
+const CONTACT_ENDPOINT = "https://formspree.io/f/mwkjgrwo";
+
 export default function Contact() {
+  const [formData, setFormData] = useState(initialFormData);
+  const [submitState, setSubmitState] = useState({
+    status: "idle",
+    message: "",
+  });
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const handleChange = ({ target: { name, value } }) => {
+    setFormData((current) => ({
+      ...current,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    if (formData.company.trim()) {
+      setSubmitState({
+        status: "success",
+        message: "Thanks. Your enquiry has been received.",
+      });
+      return;
+    }
+
+    setSubmitState({
+      status: "submitting",
+      message: "Sending your enquiry...",
+    });
+
+    try {
+      const response = await fetch(CONTACT_ENDPOINT, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          phone: formData.phone.trim(),
+          message: formData.message.trim(),
+          submittedAt: new Date().toISOString(),
+          source: "societyassociates.in contact form",
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Unable to submit form");
+      }
+
+      setFormData(initialFormData);
+      setSubmitState({
+        status: "success",
+        message: "Thanks. We have received your enquiry and will get back to you shortly.",
+      });
+    } catch (error) {
+      setSubmitState({
+        status: "error",
+        message: "We could not send your message right now. Please use email or WhatsApp below.",
+      });
+    }
+  };
 
   return (
     <section id="contact" className="section-padding contact-section">
@@ -70,28 +143,89 @@ export default function Contact() {
           </div>
 
           <div className="contact-form-column" data-aos="fade-left">
-            <form action="https://formspree.io/f/mwkjgrwo" method="POST" className="enquiry-form" id="contact">
+            <form className="enquiry-form" id="contact" onSubmit={handleSubmit}>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name">Full Name</label>
-                  <input type="text" id="name" name="name" placeholder="John Doe" required />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="John Doe"
+                    value={formData.name}
+                    onChange={handleChange}
+                    autoComplete="name"
+                    required
+                  />
                 </div>
               </div>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="email">Email Address</label>
-                  <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="john@example.com"
+                    value={formData.email}
+                    onChange={handleChange}
+                    autoComplete="email"
+                    required
+                  />
                 </div>
                 <div className="form-group">
                   <label htmlFor="phone">Phone Number</label>
-                  <input type="text" id="phone" name="phone" placeholder="+91 98765 43210" required />
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+91 98765 43210"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    autoComplete="tel"
+                    required
+                  />
                 </div>
               </div>
               <div className="form-group">
                 <label htmlFor="message">Your Message</label>
-                <textarea id="message" name="message" placeholder="How can we help you?" required style={{ height: "120px" }} />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="How can we help you?"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  style={{ height: "120px" }}
+                />
               </div>
-              <button type="submit" className="btn btn-primary submit-btn">Send Message</button>
+              <div className="contact-honeypot" aria-hidden="true">
+                <label htmlFor="company">Company</label>
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  tabIndex="-1"
+                  autoComplete="off"
+                  value={formData.company}
+                  onChange={handleChange}
+                />
+              </div>
+              <button
+                type="submit"
+                className="btn btn-primary submit-btn"
+                disabled={submitState.status === "submitting"}
+              >
+                {submitState.status === "submitting" ? "Sending..." : "Send Message"}
+              </button>
+              <p className="contact-form-note">
+                Prefer a direct reply? Email us at <a href="mailto:societyassociates22@gmail.com">societyassociates22@gmail.com</a> or message us on WhatsApp.
+              </p>
+              {submitState.message && (
+                <p className={`contact-form-status is-${submitState.status}`} aria-live="polite">
+                  {submitState.message}
+                </p>
+              )}
             </form>
           </div>
         </div>
