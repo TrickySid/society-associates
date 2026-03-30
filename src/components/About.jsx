@@ -36,11 +36,7 @@ export default function About() {
             <div className="about-features">
               <div className="feature-item">
                 <i className="fas fa-check-circle feature-icon"></i>
-                <span>Expert Legal Compliance</span>
-              </div>
-              <div className="feature-item">
-                <i className="fas fa-check-circle feature-icon"></i>
-                <span>Transparent Accounting</span>
+                <span>Transparent Accounting and Auditing</span>
               </div>
               <div className="feature-item">
                 <i className="fas fa-check-circle feature-icon"></i>
